@@ -1,12 +1,12 @@
 using System.Collections.Generic;
 
 /// <summary>
-/// Пул доступных туториалов
+/// РџСѓР» С‚СѓС‚РѕСЂРёР°Р»РѕРІ
 /// </summary>
 public class TutorialPool
 {
     /// <summary>
-    /// Список доступных туториалов
+    /// РЎРїРёСЃРѕРє РґРѕСЃС‚СѓРїРЅС‹С… С‚СѓС‚РѕСЂРёР°Р»РѕРІ РІ РїСѓР»Рµ
     /// </summary>
     public IReadOnlyList<ITutorial> Tutorials => tutorials;
 
@@ -19,7 +19,7 @@ public class TutorialPool
     }
 
     /// <summary>
-    /// Взять туториал проходящий необходимые условия
+    /// РџРѕР»СѓС‡РёС‚СЊ РґРѕСЃС‚СѓРїРЅС‹Р№ С‚СѓС‚РѕСЂРёР°Р»РѕРІ РѕС‚РІРµС‡Р°СЋС‰РёР№ СѓСЃР»РѕРІРёСЋ
     /// </summary>
     public ITutorial GetTutorial()
     {
@@ -35,7 +35,7 @@ public class TutorialPool
     }
 
     /// <summary>
-    /// Освободить туториал из пула при завершении
+    /// РћСЃРІРѕР±РѕРґРёС‚СЊ С‚СѓС‚РѕСЂРёР°Р» РёР· РїСѓР»Р°
     /// </summary>
     private void ReleaseTutorial(ITutorial task) => tutorials.Remove(task);
 

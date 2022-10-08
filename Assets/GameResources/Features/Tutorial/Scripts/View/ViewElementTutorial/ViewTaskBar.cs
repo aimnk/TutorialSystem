@@ -1,7 +1,7 @@
 using UnityEngine;
 
 /// <summary>
-/// Отображение таска бара
+/// РћС‚РѕР±СЂР°Р¶РµРЅРёРµ РїР°РЅРµР»Рё Р·Р°РґР°С‡
 /// </summary>
 [CreateAssetMenu(fileName = nameof(ViewTaskBar), menuName = "Tutorial/ViewTutorialElement/Create/" + nameof(ViewTaskBar))]
 public class ViewTaskBar : AbstractViewTutorialElement

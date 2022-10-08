@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 /// <summary>
-/// Клик по кнопке для прохождения шага туториала
+/// Р”РµР№СЃС‚РІРёРµ РєР»РёРє РїРѕ РєРЅРѕРїРєРµ РґР»СЏ Р·Р°РІРµСЂС€РµРЅРёСЏ С€Р°РіР° С‚СѓС‚РѕСЂРёР°Р»Р°
 /// </summary>
 [RequireComponent(typeof(Button))]
 public class TutorialClickButtonAction : AbtractTutorialAction

@@ -1,24 +1,24 @@
 using System;
-using UnityEngine;
 
 /// <summary>
-/// Дата для шага туториала
+/// Р”Р°С‚Р° С€Р°РіР° С‚СѓС‚РѕСЂРёР°Р»Р°
 /// </summary>
 [Serializable]
 public class StepTutorial
 {
     /// <summary>
-    /// Дата визаулизации туториала
+    /// Р”Р°С‚Р° РІРёР·Р°СѓР»РёР·Р°С†РёРё С€Р°РіР° С‚СѓС‚РѕСЂРёР°Р»Р°
     /// </summary>
     public ViewTutorialData viewTutorialData;
 
     /// <summary>
-    /// Действие необходимо для следующего шага туториала
+    /// Р”РµР№СЃС‚РІРёРµ РЅРµРѕР±С…РѕРґРёРјРѕРµ РґР»СЏ РІС‹РїРѕР»РЅРµРЅРёСЏ С€Р°РіР° С‚СѓС‚РѕСЂРёР°Р»Р°
     /// </summary>
     public AbtractTutorialAction TutorialAction;
 
     /// <summary>
-    /// Завершен ли шаг туториала?
+    /// РЁР°Рі С‚СѓС‚РѕСЂРёР°Р»Р° Р·Р°РІРµСЂС€РµРЅ
     /// </summary>
+    [NonSerialized]
     public bool hasCompleted;
 }

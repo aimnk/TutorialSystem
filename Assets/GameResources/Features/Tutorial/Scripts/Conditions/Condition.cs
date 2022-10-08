@@ -1,7 +1,7 @@
 using UnityEngine;
 
 /// <summary>
-/// Условие выполнено всегда
+/// РЈСЃР»РѕРІРёРµ РІСЃРµРіРґР° РІС‹РїРѕР»РЅРµРЅРѕ
 /// </summary>
 [CreateAssetMenu(fileName = nameof(Condition), menuName = "Tutorial/Condition/Create/" + nameof(Condition))]
 public class Condition : AbstractCondition

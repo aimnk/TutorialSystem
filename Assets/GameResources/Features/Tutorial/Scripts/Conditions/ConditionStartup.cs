@@ -1,7 +1,7 @@
 using UnityEngine;
 
 /// <summary>
-/// Условие - пользователь провел опредленное время с начала запуска
+/// РЈСЃР»РѕРІРёРµ - РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ РїСЂРѕРІРµР» РѕРїСЂРµРґРµР»РµРЅРЅРѕРµ РІСЂРµРјСЏ РїРѕСЃР»Рµ Р·Р°РїСѓСЃРєР°
 /// </summary>
 [CreateAssetMenu(fileName = nameof(ConditionStartup), menuName = "Tutorial/Condition/Create/" + nameof(ConditionStartup))]
 public class ConditionStartup : AbstractCondition

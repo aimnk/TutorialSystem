@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Дата визуалиации шага туториала
+/// Р”Р°С‚Р° РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ С‚СѓС‚РѕСЂРёР°Р»Р°
 /// </summary>
 [CreateAssetMenu(fileName = nameof(ViewTutorialData), menuName = "Tutorial/View/Create/" + nameof(ViewTutorialData))]
 public class ViewTutorialData : ScriptableObject
 {
     /// <summary>
-    /// Дата описаний шага туториала
+    /// Р”Р°С‚Р° РѕРїРёСЃР°РЅРёСЏ С‚СѓС‚РѕСЂРёР°Р»Р°
     /// </summary>
     public InfoTutorialData InfoTutorialDatas => infoTutorialData;
 
     /// <summary>
-    /// Вьюшка элементов визуализации в туториале
+    /// Р­Р»РјРµРЅС‚С‹ РІРёР·СѓР°Р»РёР·Р°С†РёРё С‚СѓС‚РѕСЂРёР°Р»Р°
     /// </summary>
     public IReadOnlyList<AbstractViewTutorialElement> ViewTutorialElements => abstractViewTutorialElements;
 
@@ -25,7 +25,7 @@ public class ViewTutorialData : ScriptableObject
     private List<AbstractViewTutorialElement> abstractViewTutorialElements;
 
     /// <summary>
-    /// Дата описаний туториала для шага туториала
+    /// Р”Р°С‚Р° РѕРїРёСЃР°РЅРёСЏ С‚СѓС‚РѕСЂРёР°Р»Р°
     /// </summary>
     [Serializable]
     public class InfoTutorialData

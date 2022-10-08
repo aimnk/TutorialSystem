@@ -2,7 +2,7 @@ using Cysharp.Threading.Tasks;
 using UnityEngine;
 
 /// <summary>
-/// Ожидание определенного времени для завершения действия
+/// РћР¶РёРґР°РЅРёРµ РѕРїСЂРµРґРµР»РµРЅРЅРѕРіРѕ РІСЂРµРјРµРЅРё РґР»СЏ Р·Р°РІРµСЂС€РµРЅРёСЏ С€Р°РіР° С‚СѓС‚РѕСЂРёР°Р»Р°
 /// </summary>
 public class TutorialWaitAction : AbtractTutorialAction
 {

@@ -1,7 +1,7 @@
 using UnityEngine;
 
 /// <summary>
-/// Абстрактная визуализация элемента туториала
+/// РђР±СЃС‚СЂР°РєС‚РЅРѕРµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРёРµ РІРёР·СѓР°Р»РёР·Р°С†РёРё СЌР»РµРјРµРЅС‚Р° С‚СѓС‚РѕСЂРёР°Р»Р°
 /// </summary>
 public abstract class AbstractViewTutorialElement : ScriptableObject
 {
@@ -14,10 +14,10 @@ public abstract class AbstractViewTutorialElement : ScriptableObject
     protected GameObject initElement = default;
 
     /// <summary>
-    /// Инициализировать элемент визулазиации
+    /// РРЅС†РёР°Р»РёР·РёСЂРѕРІР°С‚СЊ СЌР»РµРјРµРЅС‚ РІРёР·СѓР°Р»РёР·Р°С†РёРё
     /// </summary>
     /// <param name="content"></param>
-    /// TODO: освобождать обьект при ненадобности
+    /// TODO: СЃРґРµР»Р°С‚СЊ РїСѓР» РѕР±СЊРµРєС‚РѕРІ
     public virtual void InitViewElement(Transform content)
     {
         if (initElement == null && isActive)
@@ -27,13 +27,13 @@ public abstract class AbstractViewTutorialElement : ScriptableObject
     }
 
     /// <summary>
-    /// Отобразить элемент визулазиации
+    /// РћС‚РѕР±СЂР°Р·РёС‚СЊ СЌР»РµРјРµРЅС‚ РІРёР·СѓР°Р»РёР·Р°С†РёРё
     /// </summary>
     /// <param name="stepTutorial"></param>
     public abstract void ShowElement (StepTutorial stepTutorial);
 
     /// <summary>
-    /// Спрятать элемент визулазиации
+    /// РЎРїСЂСЏС‚Р°С‚СЊ/РїРѕРєР°Р·Р°С‚СЊ РІРёР·СѓР°Р»РёР·Р°С†РёРё
     /// </summary>
     /// <param name="state"></param>
     public void HideViewElementView(bool state)

@@ -2,27 +2,27 @@ using System;
 using UnityEngine;
 
 /// <summary>
-/// Обработчки событий туториала (message bus)
+/// РћР±СЂР°Р±РѕС‚С‡РёРє СЃРѕР±С‹С‚РёР№ С‚СѓС‚РѕСЂРёР°Р»РѕРІ (message bus)
 /// </summary>
 public class TutorialHandler : MonoBehaviour
 {
     /// <summary>
-    /// Событие - начало туториала
+    /// РЎРѕР±С‹С‚РёРµ - РЅР°С‡Р°Р»Рѕ С‚СѓС‚РѕСЂРёР°Р»Р°
     /// </summary>
     public event Action<Tutorial> onStartTutorial = delegate { };
 
     /// <summary>
-    /// Событие - туториал завершен
+    /// РЎРѕР±С‹С‚РёРµ - Р·Р°РІСЂРµС€РµРЅРёРµ С‚СѓС‚РѕСЂРёР°Р»Р°
     /// </summary>
     public event Action<Tutorial> onCompleteTutorial = delegate { };
 
     /// <summary>
-    /// Событие - начала шага туториала
+    /// РЎРѕР±С‹С‚РёРµ - РЅР°С‡Р°Р»Рѕ С€Р°РіР° С‚СѓС‚РѕСЂРёР°Р»Р°
     /// </summary>
     public event Action<StepTutorial> onStartStepTutorial = delegate { };
 
     /// <summary>
-    /// Событие - шаг туториала завершен
+    /// РЎРѕР±С‹С‚РёРµ - Р·Р°РІСЂС€РµРЅРёРµ С€Р°РіР° С‚СѓС‚РѕСЂРёР°Р»Р°
     /// </summary>
     public event Action<StepTutorial> onEndStepTutorial = delegate { };
 

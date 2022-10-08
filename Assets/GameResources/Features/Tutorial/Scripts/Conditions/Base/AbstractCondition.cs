@@ -1,12 +1,12 @@
 using UnityEngine;
 
 /// <summary>
-/// Базовый класс необходимого условия
+/// РђР±СЃС‚СЂР°РєС‚РЅРѕРµ СѓСЃР»РѕРІРёРµ
 /// </summary>
 public abstract class AbstractCondition : ScriptableObject
 {
     /// <summary>
-    /// Проверка выполнено ли необходимое условие
+    /// РџСЂРѕРІРµСЂРєР° - РІС‹РїРѕР»РЅРµРЅРѕ Р»Рё СѓСЃР»РѕРІРёРµ
     /// </summary>
     public abstract bool CheckCondition();  
 }

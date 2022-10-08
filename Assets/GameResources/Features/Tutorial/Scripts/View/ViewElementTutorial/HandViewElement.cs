@@ -1,7 +1,7 @@
 using UnityEngine;
 
 /// <summary>
-/// Отображение руки в шаге туториала
+/// Р­Р»РµРјРµРЅС‚ РІРёР·СѓР·Р°Р»РёС†РёРё СЂСѓРєРё
 /// </summary>
 [CreateAssetMenu(fileName = nameof(HandViewElement), menuName = "Tutorial/ViewTutorialElement/Create/" + nameof(HandViewElement))]
 public class HandViewElement : AbstractViewTutorialElement

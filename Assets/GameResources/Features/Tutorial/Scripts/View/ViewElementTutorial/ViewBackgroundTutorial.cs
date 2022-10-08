@@ -1,9 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-/// <summary>
-/// Отображение бэкграунда туториала
-/// </summary>
 [CreateAssetMenu(fileName = nameof(ViewBackgroundTutorial), menuName = "Tutorial/ViewTutorialElement/Create/" + nameof(ViewBackgroundTutorial))]
 public class ViewBackgroundTutorial : AbstractViewTutorialElement
 {

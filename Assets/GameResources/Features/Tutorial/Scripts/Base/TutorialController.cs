@@ -4,17 +4,17 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Контроллер туториалов, отвечает за инициализацию туториалов и их запуск
+/// РўСѓС‚РѕСЂРёР°Р» РєРѕРЅС‚СЂРѕР»Р»РµСЂ РѕС‚РІРµС‡Р°СЋС‰РёР№ Р·Р° РёРЅРёС†РёР»РёР·Р°С†РёСЋ С‚СѓС‚РѕСЂРёР»РѕРІ Рё РёС… Р·Р°РїСѓСЃРє
 /// </summary>
 public class TutorialController : MonoBehaviour
 {
     /// <summary>
-    /// Событие - инициализация контроллера
+    /// РЎРѕР±С‹С‚РёРµ - РёРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РєРѕРЅС‚СЂРѕР»Р»РµСЂР°
     /// </summary>
     public Action OnInit = delegate { };
 
     /// <summary>
-    /// Список доступных туториалов
+    /// РЎРїРёСЃРѕРє РґРѕСЃС‚СѓРїРЅС‹С… С‚СѓС‚РѕСЂРёР°Р»РѕРІ
     /// </summary>
     public IReadOnlyList<ITutorial> Tutorials => tutorialPool.Tutorials;
 
@@ -79,7 +79,7 @@ public class TutorialController : MonoBehaviour
     }
 
     /// <summary>
-    /// TODO: Возможно стоит переделать на события выполненого условия
+    /// TODO: Р’РѕР·РјРѕР¶РЅРѕ СЃС‚РѕРёС‚ РїРµСЂРґРµР»Р°С‚СЊ С‡РµСЂРµР· СЃРѕР±С‹С‚РёСЏ РїСЂРё РІС‹РїРѕР»РЅРµРЅРёСЏ СѓСЃР»РѕРІРёСЏ
     /// </summary>
     /// <param name="predicate"></param>
     /// <param name="sleep"></param>
@@ -97,7 +97,7 @@ public class TutorialController : MonoBehaviour
     private void OnDestroy() => tutorialHandler.onCompleteTutorial -= OnCompleteTutorial;
 
     /// <summary>
-    /// Дата настроек туториала в инспекторе
+    /// Р”Р°С‚Р° РќР°СЃС‚СЂРѕР№РєРё С‚СѓС‚РѕСЂРёР°Р»Р°
     /// </summary>
     [Serializable]
     public class SettingDataTutorial

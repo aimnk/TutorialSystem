@@ -1,27 +1,27 @@
 using System;
 
 /// <summary>
-/// Интерфейс туториала
+/// РРЅС‚РµСЂС„РµР№СЃ С‚СѓС‚РѕСЂРёР°Р»Р°
 /// </summary>
 public interface ITutorial
 {
     /// <summary>
-    /// Событие - успешное завершение шага туториала
+    /// РЎРѕР±С‹С‚РёРµ - С‚СѓС‚РѕСЂРёР°Р» Р·Р°РІРµСЂС€РµРЅ
     /// </summary>
     public event Action<ITutorial> onCompleteTutorial;
 
     /// <summary>
-    /// Событие - запуск шага туториала
+    /// РЎРѕР±С‹С‚РёРµ - РЅР°С‡Р°Р»Рѕ С‚СѓС‚РѕСЂРёР°Р»Р°
     /// </summary>
     public event Action<ITutorial> onStartTutorial;
 
     /// <summary>
-    /// Запустить шаг туториала
+    /// Р—Р°РїСѓСЃС‚РёС‚СЊ С‚СѓС‚РѕСЂРёР°Р»
     /// </summary>
     public void StartTutorial();
 
     /// <summary>
-    /// Завершение шага туториала
+    /// Р—Р°РІРµСЂС€РёС‚СЊ С‚СѓС‚РѕСЂРёР°Р»
     /// </summary>
     public void CompleteTutorial();
 }

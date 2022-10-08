@@ -1,7 +1,7 @@
 using UnityEngine;
 
 /// <summary>
-/// Визуалиация туториала
+/// РћС‚РѕР±СЂР°Р¶РµРЅРёРµ РІРёР·Р°СѓР»РёР·Р°С†РёРё С‚СѓС‚РѕСЂРёР°Р»Р°
 /// </summary>
 public class TutorialView : MonoBehaviour
 {
@@ -29,7 +29,7 @@ public class TutorialView : MonoBehaviour
     }
 
     /// <summary>
-    /// Визуализация шага туториала
+    /// РћС‚РѕР±СЂР°Р·РёС‚СЊ С€Р°Рі С‚СѓС‚РѕСЂРёР°Р»Р°
     /// </summary>
     /// <param name="stepTutorial"></param>
     private void VisualizeStep (StepTutorial stepTutorial)

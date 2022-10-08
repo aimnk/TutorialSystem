@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 /// <summary>
-/// Отображение описания туториала
+/// РћС‚РѕР±СЂР°Р¶РµРЅРёРµ РѕРїРёСЃР°РЅРёСЏ РґР»СЏ С‚СѓС‚РѕСЂРёР°Р»Р°
 /// </summary>
 public class ViewDescription : MonoBehaviour
 {
@@ -16,7 +16,7 @@ public class ViewDescription : MonoBehaviour
     private GameObject NoteContent;
 
     /// <summary>
-    /// Показать описание туториала
+    /// РџРѕРєР°Р·Р°С‚СЊ РѕРїРёСЃР°РЅРёРµ
     /// </summary>
     /// <param name="viewTutorialData"></param>
     public void ShowDescriptions(ViewTutorialData viewTutorialData)

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 /// <summary>
-/// Базовый класс представляния туториала
+/// Р‘Р°Р·РѕРІС‹Р№ РєР»Р°СЃСЃ С‚СѓС‚РѕСЂРёР°Р»Р°
 /// </summary>
 public class Tutorial : ITutorial
 {
@@ -17,10 +17,13 @@ public class Tutorial : ITutorial
     public event Action<StepTutorial> onEndStepTutorial = delegate { };
 
     /// <summary>
-    /// Абстракное условия необходимое для начала туториала
+    /// РЈСЃР»РѕРІРёРµ РЅРµРѕР±С…РѕРґРёРјРѕРµ РґР»СЏ Р·Р°РїСѓСЃРєР° С‚СѓС‚РѕСЂРёР°Р»Р°
     /// </summary>
     public AbstractCondition Condition => condition;
 
+    /// <summary>
+    /// Р”РѕСЃС‚СѓРїРЅС‹Рµ С€Р°РіРё С‚СѓС‚РѕСЂРёР°Р»Р°
+    /// </summary>
     public List<StepTutorial> StepTutorial => stepTutorial;
 
     protected AbstractCondition condition;

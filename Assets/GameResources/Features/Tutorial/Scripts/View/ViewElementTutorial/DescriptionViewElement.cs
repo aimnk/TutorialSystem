@@ -1,7 +1,7 @@
 using UnityEngine;
 
 /// <summary>
-/// Отображение описание шага туториала
+/// РћС‚РѕР±СЂР°Р¶РµРЅРёРµ РёРЅС„РѕСЂРјР°С†РёРё
 /// </summary>
 [CreateAssetMenu(fileName = nameof(DescriptionViewElement), menuName = "Tutorial/ViewTutorialElement/Create/" + nameof(DescriptionViewElement))]
 public class DescriptionViewElement : AbstractViewTutorialElement

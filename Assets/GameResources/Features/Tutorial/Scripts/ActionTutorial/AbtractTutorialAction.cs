@@ -2,7 +2,7 @@
 using UnityEngine;
 
 /// <summary>
-/// Выполнение необходимого действия для прохождения шага туториала
+/// Абстрактное действие для прохождения шага туториала
 /// </summary>
 public abstract class AbtractTutorialAction : MonoBehaviour
 {

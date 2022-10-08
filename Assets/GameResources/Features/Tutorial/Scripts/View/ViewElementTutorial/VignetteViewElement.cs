@@ -2,7 +2,7 @@ using Coffee.UIExtensions;
 using UnityEngine;
 
 /// <summary>
-/// Отображение виньетки
+/// Р­Р»РµРјРµРЅС‚ РІРёР·СѓР°Р»РёС†РёРё РІРёРЅСЊРµС‚С‚РєРё
 /// </summary>
 [CreateAssetMenu(fileName = nameof(VignetteViewElement), menuName = "Tutorial/ViewTutorialElement/Create/" + nameof(VignetteViewElement))]
 public class VignetteViewElement : AbstractViewTutorialElement
