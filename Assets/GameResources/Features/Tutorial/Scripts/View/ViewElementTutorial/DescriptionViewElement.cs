@@ -15,7 +15,7 @@ public class DescriptionViewElement : AbstractViewTutorialElement
 
         if (initElement.TryGetComponent<ViewDescription>(out ViewDescription viewDescription))
         {
-            viewDescription.ShowDescriptions(stepTutorial.viewTutorialData);
+            viewDescription.ShowDescriptions(stepTutorial.ViewTutorialData);
             viewDescription.transform.SetAsLastSibling();
         }
     }

@@ -6,9 +6,6 @@ using UnityEngine;
 public class TutorialView : MonoBehaviour
 {
     [SerializeField]
-    private TutorialController tutorialController;
-
-    [SerializeField]
     private TutorialHandler tutorialHandler;
 
     [SerializeField]
@@ -36,7 +33,7 @@ public class TutorialView : MonoBehaviour
     {
 
         currentStepTutorial = stepTutorial;
-        foreach (var item in stepTutorial.viewTutorialData.ViewTutorialElements)
+        foreach (var item in stepTutorial.ViewTutorialData.ViewTutorialElements)
         {
             item.InitViewElement(content);
             item.ShowElement(stepTutorial);
@@ -49,7 +46,7 @@ public class TutorialView : MonoBehaviour
 
     private void EnablerVizualization(StepTutorial stepTutorial, bool state)
     {
-        foreach (var viewTutorialElement in stepTutorial.viewTutorialData.ViewTutorialElements)
+        foreach (var viewTutorialElement in stepTutorial.ViewTutorialData.ViewTutorialElements)
         {
             viewTutorialElement.HideViewElementView(state);
         }

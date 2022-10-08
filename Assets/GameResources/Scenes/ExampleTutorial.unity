@@ -506,30 +506,35 @@ MonoBehaviour:
   - NameTutrial: "\u041F\u0435\u0440\u0432\u044B\u0439 \u0442\u0443\u0442\u043E\u0440\u0438\u0430\u043B"
     Condition: {fileID: 11400000, guid: d9492d7dc4da66d4aa2eb975357c6aca, type: 2}
     StepsTutorial:
-    - viewTutorialData: {fileID: 11400000, guid: ad9861b8ad99bc545984311b4dcfcca3, type: 2}
+    - ViewTutorialData: {fileID: 11400000, guid: ad9861b8ad99bc545984311b4dcfcca3, type: 2}
       TutorialAction: {fileID: 1750950665}
-      hasCompleted: 0
-    - viewTutorialData: {fileID: 11400000, guid: d574f1d7a36782440a543c421070ff8c, type: 2}
+    - ViewTutorialData: {fileID: 11400000, guid: d574f1d7a36782440a543c421070ff8c, type: 2}
       TutorialAction: {fileID: 756829357}
-      hasCompleted: 0
-    - viewTutorialData: {fileID: 11400000, guid: e19c7ed76aac9e14d91926a696561fe3, type: 2}
+    - ViewTutorialData: {fileID: 11400000, guid: e19c7ed76aac9e14d91926a696561fe3, type: 2}
       TutorialAction: {fileID: 1128694641}
-      hasCompleted: 0
   - NameTutrial: "\u0412\u0442\u043E\u0440\u043E\u0439 \u0442\u0443\u0442\u043E\u0440\u0438\u0430\u043B"
     Condition: {fileID: 11400000, guid: d9492d7dc4da66d4aa2eb975357c6aca, type: 2}
     StepsTutorial:
-    - viewTutorialData: {fileID: 11400000, guid: bc44d40ed1da4174694b2475d835ff65, type: 2}
+    - ViewTutorialData: {fileID: 11400000, guid: ad9861b8ad99bc545984311b4dcfcca3, type: 2}
       TutorialAction: {fileID: 1458435300}
-      hasCompleted: 0
-    - viewTutorialData: {fileID: 11400000, guid: df42f2fe484ecda4baab88809ca7184d, type: 2}
+    - ViewTutorialData: {fileID: 11400000, guid: df42f2fe484ecda4baab88809ca7184d, type: 2}
       TutorialAction: {fileID: 2081051422}
-      hasCompleted: 0
-    - viewTutorialData: {fileID: 11400000, guid: c37382dce713a9d489c37ac055048db4, type: 2}
+    - ViewTutorialData: {fileID: 11400000, guid: e19c7ed76aac9e14d91926a696561fe3, type: 2}
       TutorialAction: {fileID: 1634819559466397937}
-      hasCompleted: 0
+  - NameTutrial: "\u0422\u0440\u0435\u0442\u0438\u0439 \u0442\u0443\u0442\u043E\u0440\u0438\u0430\u043B"
+    Condition: {fileID: 11400000, guid: de9ddcc9dcb525b42ac4631d6123dc39, type: 2}
+    StepsTutorial:
+    - ViewTutorialData: {fileID: 11400000, guid: 60bcc39cd6e15754f83badabe55e1f52, type: 2}
+      TutorialAction: {fileID: 1750950665}
+    - ViewTutorialData: {fileID: 11400000, guid: 281d97e3419faa04dba5cdf6a33b1090, type: 2}
+      TutorialAction: {fileID: 1634819559466397938}
+    - ViewTutorialData: {fileID: 11400000, guid: 4ae08b9ef22789f41991c177da9b4bf1, type: 2}
+      TutorialAction: {fileID: 1634819559466397938}
+    - ViewTutorialData: {fileID: 11400000, guid: fc3f3626d37e3e84e83984cc5206f7a1, type: 2}
+      TutorialAction: {fileID: 1634819559466397938}
+    - ViewTutorialData: {fileID: 11400000, guid: e697ea13f1f28fa4aaea772fc9284af1, type: 2}
+      TutorialAction: {fileID: 1634819559466397938}
   tutorialHandler: {fileID: 2112708955}
-  saveDataTutorial:
-    tutorialSaveDatas: []
 --- !u!114 &1750950665 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1634819558789846009, guid: b1577291c9b265446bf5825d62fb0e32, type: 3}
@@ -585,7 +590,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a968ed2fa7c810a4da0285d19196e55b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tutorialController: {fileID: 0}
   tutorialHandler: {fileID: 2112708955}
   content: {fileID: 62661538}
 --- !u!114 &2081051422 stripped
@@ -1872,6 +1876,17 @@ PrefabInstance:
 --- !u!114 &1634819559466397937 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5632184230099563781, guid: b1577291c9b265446bf5825d62fb0e32, type: 3}
+  m_PrefabInstance: {fileID: 1634819559466397936}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df4a0e882a71f4b48a2ece906cdd46aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1634819559466397938 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1634819559352762105, guid: b1577291c9b265446bf5825d62fb0e32, type: 3}
   m_PrefabInstance: {fileID: 1634819559466397936}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}

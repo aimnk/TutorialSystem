@@ -34,7 +34,7 @@ public class TutorialSaver
             foreach (var stepTutorial in settingData.StepsTutorial)
             {
                 StepsSaveData stepsSaveData = new StepsSaveData();
-                stepsSaveData.hasCompleted = stepTutorial.hasCompleted;
+                stepsSaveData.hasCompleted = stepTutorial.HasCompleted;
                 saveData.StepsSaveDatas.Add(stepsSaveData);
             }
 
@@ -51,6 +51,11 @@ public class TutorialSaver
     {
         var saveDataTutorial = saveLoad.Load<SaveDataTutorial>();
 
+        if (saveDataTutorial == null)
+        {
+            return;
+        }
+
         foreach (var settingData in settingsDatas)
         {
             foreach (var tutorialSaveData in saveDataTutorial.tutorialSaveDatas)
@@ -61,7 +66,7 @@ public class TutorialSaver
                     {
                         foreach (var stepsSaveData in tutorialSaveData.StepsSaveDatas)
                         {
-                            stepTutorial.hasCompleted = stepsSaveData.hasCompleted;
+                            stepTutorial.HasCompleted = stepsSaveData.hasCompleted;
                         }
                     }
                 }

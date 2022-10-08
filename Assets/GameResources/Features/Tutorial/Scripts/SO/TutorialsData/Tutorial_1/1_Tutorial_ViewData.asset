@@ -19,5 +19,4 @@ MonoBehaviour:
       \u043F\u0440\u0438\u043C\u0435\u0447\u0430\u043D\u0438\u044F"
   abstractViewTutorialElements:
   - {fileID: 11400000, guid: 0c972b9295c1b224ca7e01365fde2270, type: 2}
-  - {fileID: 11400000, guid: d977c0534bc2e684e9107171a42981ff, type: 2}
   - {fileID: 11400000, guid: d16ff4081ec20d040ac5bbfdc6428867, type: 2}

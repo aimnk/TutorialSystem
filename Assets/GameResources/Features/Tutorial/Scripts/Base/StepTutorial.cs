@@ -9,7 +9,7 @@ public class StepTutorial
     /// <summary>
     /// Дата визаулизации шага туториала
     /// </summary>
-    public ViewTutorialData viewTutorialData;
+    public ViewTutorialData ViewTutorialData;
 
     /// <summary>
     /// Действие необходимое для выполнения шага туториала
@@ -20,5 +20,5 @@ public class StepTutorial
     /// Шаг туториала завершен
     /// </summary>
     [NonSerialized]
-    public bool hasCompleted;
+    public bool HasCompleted;
 }

@@ -56,7 +56,7 @@ public class Tutorial : ITutorial
     {
         if (currentAbstractSubStep != null)
         {
-            currentAbstractSubStep.hasCompleted = true;
+            currentAbstractSubStep.HasCompleted = true;
             currentAbstractSubStep.TutorialAction.onCompleteAction -= NextStepTutorial;
             onEndStepTutorial.Invoke(currentAbstractSubStep);
         }
@@ -64,7 +64,7 @@ public class Tutorial : ITutorial
 
     protected virtual void TryStartStepTutorial()
     {
-        currentAbstractSubStep = stepTutorial.FirstOrDefault(substep => !substep.hasCompleted);
+        currentAbstractSubStep = stepTutorial.FirstOrDefault(substep => !substep.HasCompleted);
 
         if (currentAbstractSubStep != null)
         {
