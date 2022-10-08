@@ -5,7 +5,8 @@
 ![image](https://user-images.githubusercontent.com/79191549/194696120-22096d05-2c8d-417d-9ccf-9992ab37a495.png)  
 NameTutorial - название туториала, уникальное  
 Condition - необходимо условие для запуска туториала  
-###
+### StepTutorial
+![image](https://user-images.githubusercontent.com/79191549/194696422-c32753cc-c0be-4a95-bd3b-6f6d81dadf06.png)  
 StepTutorial - подшаги в туториале, принимают:  
 ViewTutorialData(SO) - дата визуализации подшага туториала  
 AbstractTutorialAction(MB) - необходимое действия для завершение подшага  
